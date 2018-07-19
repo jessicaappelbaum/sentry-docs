@@ -1,0 +1,15 @@
+{% comment %}
+Save the previous context so this loop doesn't clobber data from it's parent call
+{% endcomment %}
+{%- assign __CONTEXT_root = __root -%}
+{%- assign __CONTEXT_document_path = __document_path -%}
+{%- assign __CONTEXT_document = __document -%}
+{%- assign __CONTEXT_template_list = __template_list -%}
+{%- assign __CONTEXT_template_slug = __template_slug -%}
+{%- assign __CONTEXT_template_path = __template_path -%}
+{%- assign __CONTEXT_child_path = __child_path -%}
+{%- assign __CONTEXT_child_paths = __child_paths -%}
+{%- assign __CONTEXT_child_documents = __child_documents -%}
+{%- assign __CONTEXT_child_document = __child_document -%}
+{%- assign __CONTEXT_new_template_list_length = __new_template_list_length -%}
+{%- assign __CONTEXT_new_template_list = __new_template_list -%}
